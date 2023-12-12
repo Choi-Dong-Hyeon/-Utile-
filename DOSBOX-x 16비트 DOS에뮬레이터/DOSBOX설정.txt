@@ -1,0 +1,18 @@
+MASM611압축 풀기
+
+
+
+DosBox-x 설치
+
+
+asm파일을 저장할 폴더 생성
+
+
+DoxBox폴더 안에 dosbox-x.conf 파일을 텍스트편집기로 연다
+
+그안에 set path =  로시작하는곳 맨뒤에 ;T:\MASM611\BIN 붙여넣는다
+
+맨아래 [autoexec] 아래에 MOUNT A "asm파일저장폴더 경로" MOUNT T "MASM611 폴더경로"
+
+
+실행방법 도스박스를 열고 ML /W3 TEST.ASM
